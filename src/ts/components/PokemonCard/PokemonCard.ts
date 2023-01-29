@@ -13,7 +13,7 @@ class PokemonCard implements PokemonCardStructure {
     const cardElement = new Component(rootElement, "card", "article");
     cardElement.render();
     cardElement.domElement.innerHTML = `
-    <img class="card__image" alt="a pokemon type" src="${this.picture}" width="200" height="200">
+    <img class="card__image" alt="a pokemon type" src="${this.picture}" width="220" height="220">
     <div class="card__info">
     <h2 class="card__name">Name: ${this.name}</h2>
     <span class="card__weight">Weight: ${this.weight}</span>
